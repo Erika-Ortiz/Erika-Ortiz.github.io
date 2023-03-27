@@ -1,58 +1,66 @@
-# Strata Reloaded
+# Forty - Jekyll Theme
 
-Simple, clean personal blogging template for Jekyll based on Strata by HTML5 UP.
+A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
 
-![Strata Reloaded template screenshot](images/_screenshot.png)
+![Forty Theme](assets/images/forty.jpg "Forty Theme")
 
-## Features
+# How to Use
 
-* Parallax background effect
-* Lightbox gallery
-* Pre-styled components
-* Blog with pagination
-* Configurable footer
-* Optimized for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
-* Webmaster Verification
+For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
+or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
+and [creating pages](https://jekyllrb.com/docs/pages/).
 
-## Develop
+Simply fork this repository and start editing the `_config.yml` file!
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics key to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
 
-## Develop
+# Added Features
 
-Urban was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
+* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
+* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
+* Set **featured images** in front matter.
 
-Install the dependencies with [Bundler](http://bundler.io/):
+# Credits
 
-~~~bash
-$ bundle install
-~~~
+Original README from HTML5 UP:
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+```
+Forty by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-~~~bash
-$ bundle exec jekyll serve
-~~~
 
-## Editing
+This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
+creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
+set up to smoothly transition to secondary landing pages (for which a separate page
+template is provided), and includes a number of neat effects (check out the menu!),
+extra features, and all the usual stuff you'd expect. Hope you dig it!
 
-Strata Reloaded is already optimized for adding, updating and removing posts and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-### Posts
+(* = not included)
 
-* Add, update or remove a post in the *Posts* collection.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+AJ
+aj@lkn.io | @ajlkn
 
-### Footer
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+Credits:
 
-## License
+	Demo Images:
+		Unsplash (unsplash.com)
 
-Free for personal and commercial use under the CCA 3.0 license. See LICENSE file for additional information and terms of use. This theme was adapted from Strata by HTML5 UP for use with [CloudCannon](http://cloudcannon.com) by [Comfusion LLC](http://comfusionllc.com).
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
+
+	Other:
+		jQuery (jquery.com)
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+		background-size polyfill (github.com/louisremi)
+		Misc. Sass functions (@HugoGiraudel)
+		Respond.js (j.mp/respondjs)
+		Skel (skel.io)
+```
+
+Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
