@@ -81,7 +81,7 @@
 					resetScroll: false,
 
 				// Reset forms on hide.
-					resetForms: false,
+					resetForms: true,
 
 				// Side of viewport the panel will appear.
 					side: null,
