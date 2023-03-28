@@ -41,9 +41,9 @@ footer:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/erika-r-ortiz/
-  - title: bitbucket
+  #- title: bitbucket
   #   url: http://bitbucket.org/jekyll
-  # - title: github
+  - title: github
     url: https://github.com/Erika-Ortiz 
 
 # Postal address (add as many lines as necessary)
