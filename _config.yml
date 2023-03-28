@@ -27,8 +27,8 @@ disqus_shortname: myshortname
 color:
   secondary: 253C59 #025959 #2c3e50  #FD6E8A #dark nav bar
   primary: 58788C #80B3FF 
-  primary-rgb: "217, 183, 13" #"242,224,201" # box portfolio
-  primary-bis: BF8D30 #about me
+  primary-rgb: "252, 246, 169" #"242,224,201" # box portfolio
+  primary-bis: fcf6a9 #cffaf0 #F8D30 #about me
   secondary-dark: 233140 #A2122F
   terciary: 58788C #04BFBF # body
 

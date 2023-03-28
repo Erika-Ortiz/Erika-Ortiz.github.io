@@ -111,7 +111,7 @@ header .intro-text .name {
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 @media(min-width:768px) {
@@ -198,7 +198,8 @@ section.secondary {
 }
 
 section.primary-bis {
-    color: #e7edf1;
+    color: #253C59;
+    /* color: #e7edf1; */
     /* color of title and text about*/
     background: #{{ site.color.primary-bis }};
 }
@@ -306,6 +307,19 @@ section.primary-bis {
 
 .btn-outline {
     margin-top: 15px;
+    /* border: solid 2px #e7edf1; */
+    border:solid 2px #253C59;
+    /* color of link box border*/
+    font-size: 20px;
+    /* color: #e7edf1; */
+    color: #253C59;
+    /* color of links*/
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-footer {
+    margin-top: 15px;
     border: solid 2px #e7edf1;
     /* color of link box border*/
     font-size: 20px;
@@ -314,7 +328,6 @@ section.primary-bis {
     background: 0 0;
     transition: all .3s ease-in-out;
 }
-
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
