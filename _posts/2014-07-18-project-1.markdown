@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 1
+modal-id-str: computer_vision
 img: cabin.png
 alt: image-alt
 category: ML
