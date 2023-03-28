@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: Computer Vision
 img: cabin.png
 alt: image-alt
 category: ML
