@@ -35,7 +35,7 @@ footer:
   copyright: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
   location: Location
   social: Social Media
-  credits: Phone
+  #credits: Phone
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -51,7 +51,7 @@ address:
   - line: Cordoba, Argentina
 
 # Credits content
-credits: '(+54) 9 351 2084173'
+#credits: '(+54) 9 351 2084173'
 
 # Build settings
 markdown: kramdown
