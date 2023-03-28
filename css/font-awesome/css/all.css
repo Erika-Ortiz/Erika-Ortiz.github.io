@@ -5344,8 +5344,8 @@ readers do not read off random characters that represent icons */
 .fa-stapler::before {
   content: "\e5af"; }
 
-/* .fa-star::before {
-  content: "\f005"; } */
+.fa-star::before {
+  content: "\f005"; }
 
 .fa-star-and-crescent::before {
   content: "\f699"; }
