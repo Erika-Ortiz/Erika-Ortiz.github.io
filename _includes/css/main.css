@@ -59,11 +59,13 @@ hr.star-primary:after {
 } */
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #ffffff;
+    /* color of idk*/
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #ffffff;
+    /* color of idk*/
     background-color: #{{ site.color.primary }};
 }
 
@@ -82,9 +84,12 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #e7edf1;
+    
+    /* color of header font*/
     background-image: url("img/hero.jpg");
 }
+
 
 header .container {
     padding-top: 100px;
@@ -181,9 +186,28 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #e7edf1;
+    /* color of portfolio title*/
     background: #{{ site.color.primary }};
 }
+
+section.secondary {
+    color: #f7f8f7;
+    /* color of title idk*/
+    background: #{{ site.color.secondary }};
+}
+
+section.primary-bis {
+    color: #e7edf1;
+    /* color of title and text about*/
+    background: #{{ site.color.primary-bis }};
+}
+
+#contact {
+    color: #e7edf1;
+     /* color of title contact me*/
+    background: #{{ site.color.primary}};
+} 
 
 @media(max-width:767px) {
     section {
@@ -230,7 +254,8 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #253C59; 
+    /* color lupita */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -281,9 +306,11 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #e7edf1;
+    /* color of link box border*/
     font-size: 20px;
-    color: #fff;
+    color: #e7edf1;
+    /* color of links*/
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -292,16 +319,22 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
+    border: solid 2px #e7edf1;
+    /* color of link box border nav links*/
     color: #{{ site.color.primary }};
+    /* color of font nav links*/
     background: #fff;
 }
+
+
+/* FORM */
 
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #e7edf1;
+    /* color lines form*/
 }
 
 .floating-label-form-group input,
@@ -342,19 +375,25 @@ section.success {
 
 .floating-label-form-group-with-value label {
     top: 0;
-    opacity: 1;
+    opacity: 0;
+    
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    /* color: #{{ site.color.primary }}; */
+    color:#ffffff
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border-top: 0px solid #45eb2f;
+    /* line below title section */
 }
 
+/* FOOTER */
+
 footer {
-    color: #fff;
+    color: #ffffff;
+    /* color of footer font */
 }
 
 footer h3 {
@@ -379,7 +418,8 @@ footer .footer-below {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff;
+    /* color of media icons*/
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
