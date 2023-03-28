@@ -7,6 +7,9 @@ keywords: "your keywords, separated by commas"
 skills: "Machine Learning Engineer - Data Scientist - Philosopher "
 meta_author: Erika Rita Ortiz
 
+# Favicon
+favicon: /assets/favicon.ico
+
 # Google webmaster tools
 google_verify:
 
