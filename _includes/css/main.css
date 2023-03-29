@@ -197,7 +197,7 @@ section h2 {
 }
 
 section.success {
-    color: #e7edf1;
+    color: #05ADA8;
     /* color of portfolio title*/
     background: #{{ site.color.primary }};
 }
@@ -215,9 +215,10 @@ section.primary-bis {
 }
 
 #contact {
-    color: #e7edf1
+    coloor:#{{ site.color.secondary }}
+   /* color:     #e7edf1 */
     /* color of title contact me*/
-    background-color: #58788C;
+    background-color: ffff;
 } 
 
 @media(max-width:767px) {
@@ -266,7 +267,8 @@ section.primary-bis {
     text-align: center;
     /* align lens */
     font-size: 20px;
-    color: #253C59; 
+    color: #{{ site.color.secondary }} 
+    /* color: #253C59;  */
     /* color lens */
 }
 
