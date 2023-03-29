@@ -1,11 +1,12 @@
 ---
 layout: default
-modal-id: 7
-modal-id-str: computer_vision
-img: projec_card_00.png
+modal-id: 1
+modal-id-str: vehicle_classification
+date: 2023-02-28
+img: project_card_1.png
 alt: image-alt
 category: ML - Computer Vision
 title: vehicle classification from images
 technology: Pandas, Numpy, Sci-Kit Learn, Detectron, AWS
-description: Use this area of the page to describe your project. 
+description: project description
 ---

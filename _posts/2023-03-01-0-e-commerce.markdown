@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 0
+date: 2023-03-01
+modal-id-str: e-commerce
+img: project_card_0.png
+alt: image-alt
+category: ML - Computer Vision - NLP
+title: automated product categorization for e-commerce
+technology: Pandas, Numpy, Sci-Kit Learn, Detectron, AWS
+description: project description. 
+---
