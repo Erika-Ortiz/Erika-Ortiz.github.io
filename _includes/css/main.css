@@ -210,18 +210,14 @@ section.secondary {
 
 section.primary-bis {
     color: #253C59;
-    /* color: #e7edf1; */
-    /* color of title and text about*/
-    /* background-color: rgb(248, 246, 220, 0.1); */
-    /* background: #{{ site.color.primary-bis }}; */
     background-image: url("img/hero2.png");
     
 }
 
 #contact {
-    color: #e7edf1;
-     /* color of title contact me*/
-    background: #{{ site.color.primary}};
+    color: #e7edf1
+    /* color of title contact me*/
+    background-color: #58788C;
 } 
 
 @media(max-width:767px) {

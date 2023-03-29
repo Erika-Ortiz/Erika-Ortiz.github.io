@@ -25,8 +25,8 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  secondary: 253C59 #025959 #2c3e50  #FD6E8A #dark nav bar
-  primary: 58788C #80B3FF 
+  secondary: 253C59 #FAC1AC #dark nav bar
+  primary:  58788C #80B3FF 
   primary-rgb: "250, 235, 230" #FAC1AC #"242,224,201" # box portfolio
   primary-bis: fcf6a9 #cffaf0 #F8D30 #about me
   secondary-dark: 233140 #A2122F
