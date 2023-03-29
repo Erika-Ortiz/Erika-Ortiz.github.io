@@ -102,7 +102,7 @@
 .fa-li {
   left: calc(var(--fa-li-width, 2em) * -1);
   position: absolute;
-  text-align: center;
+  ;
   width: var(--fa-li-width, 2em);
   line-height: inherit; }
 

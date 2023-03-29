@@ -35,9 +35,9 @@ color:
 # Footer settings
 footer:
   copyright: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-  location: email
-  credits: Phone
-  social: Social Media
+  location: EMAIL
+  credits: PHONE
+  social: SOCIAL MEDIA
   
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

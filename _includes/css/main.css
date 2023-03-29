@@ -9,11 +9,23 @@ body {
 }
 
 p {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p.medium {
+    font-family: 'Noto Serif', serif;
+    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-weight: 300;
     font-size: 20px;
 }
 
 p.small {
-    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-weight: 300;
+    font-size: 18px;
 }
 
 a,
@@ -27,13 +39,12 @@ a.active {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
 }
 
 /* hr.star-light,
@@ -104,7 +115,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -155,7 +166,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Noto Serif', serif;
     font-weight: 700;
 }
 
@@ -257,9 +268,10 @@ section.primary-bis {
     height: 20px;
     margin-top: -12px;
     text-align: center;
+    /* align lens */
     font-size: 20px;
     color: #253C59; 
-    /* color lupita */
+    /* color lens */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -471,7 +483,7 @@ footer .footer-below {
 
 .portfolio-modal .modal-content {
     padding: 100px 0;
-    min-height: 100%;
+    min-height: 100%; /*fill the screen */
     border: 0;
     border-radius: 0;
     text-align: center;
@@ -483,6 +495,7 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    
 }
 
 .portfolio-modal .modal-content img {
@@ -537,4 +550,9 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+#modal-title {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
 }
