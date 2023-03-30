@@ -95,7 +95,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #e7edf1;
+    color: #fcfaf0ff;
     
     /* color of header font*/
     background-image: url("img/hero.jpg");
@@ -209,13 +209,15 @@ section.secondary {
 }
 
 section.primary-bis {
-    color: #253C59;
+    color: #058380;
+    /* color: #253C59; */
     background-image: url("img/hero2.png");
+    /* about me */
     
 }
 
 #contact {
-    coloor:#{{ site.color.secondary }}
+    color:#{{ site.color.secondary }}
    /* color:     #e7edf1 */
     /* color of title contact me*/
     background-color: ffff;
@@ -237,6 +239,8 @@ section.primary-bis {
 }
 
 #portfolio .portfolio-item .portfolio-link {
+    border-radius: 25px; 
+    /* comment */
     display: block;
     position: relative;
     margin: 0 auto;
@@ -320,12 +324,10 @@ section.primary-bis {
 
 .btn-outline {
     margin-top: 15px;
-    /* border: solid 2px #e7edf1; */
-    border:solid 2px #253C59;
+    border:solid 2px #{{site.color.font-dark}};
     /* color of link box border*/
     font-size: 20px;
-    /* color: #e7edf1; */
-    color: #253C59;
+    color: #{{site.color.font-dark}};
     /* color of links*/
     background: 0 0;
     transition: all .3s ease-in-out;
@@ -333,10 +335,10 @@ section.primary-bis {
 
 .btn-footer {
     margin-top: 15px;
-    border: solid 2px #e7edf1;
+    border: solid 2px #{{site.color.primary}};
     /* color of link box border*/
     font-size: 20px;
-    color: #e7edf1;
+    color: #{{site.color.primary}};
     /* color of links*/
     background: 0 0;
     transition: all .3s ease-in-out;
@@ -345,11 +347,11 @@ section.primary-bis {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #e7edf1;
+    border: solid 2px #e7f1e7;
     /* color of link box border nav links*/
-    color: #{{ site.color.primary }};
+    color: #253C59;
     /* color of font nav links*/
-    background: #fff;
+    background: #{{site.color.primary-bis}};
 }
 
 
@@ -359,7 +361,7 @@ section.primary-bis {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 2px solid #e7edf1;
+    border-bottom: 2px solid #e7f1ea;
     /* color lines form*/
 }
 
@@ -418,7 +420,7 @@ form .row:first-child .floating-label-form-group {
 /* FOOTER */
 
 footer {
-    color: #ffffff;
+    color: #fcfaf0ff;
     /* color of footer font */
 }
 
@@ -436,7 +438,7 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 25px 0;
+    padding: 8px 0;
     background-color: #{{ site.color.secondary-dark }};
 }
 
@@ -444,7 +446,7 @@ footer .footer-below {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #ffffff;
+    border: 2px solid #fcfaf0ff;
     /* color of media icons*/
     border-radius: 100%;
     text-align: center;
@@ -540,7 +542,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.font-dark }} !important;
 }
 
 /* Fix modal mouse wheel issues */
