@@ -239,7 +239,6 @@ section.primary-bis {
 }
 
 #portfolio .portfolio-item .portfolio-link {
-    border-radius: 25px; 
     /* comment */
     display: block;
     position: relative;
@@ -259,6 +258,7 @@ section.primary-bis {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
+    border-radius: 10px;
     opacity: 1;
 }
 
@@ -286,6 +286,7 @@ section.primary-bis {
 }
 
 #portfolio * {
+    border-radius: 10px;
     z-index: 2;
 }
 
