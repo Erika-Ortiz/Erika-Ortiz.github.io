@@ -351,7 +351,7 @@ section.primary-bis {
     /* color of link box border nav links*/
     color: #253C59;
     /* color of font nav links*/
-    background: #{{site.color.primary-bis}};
+    background: #fcfaf0ff;
 }
 
 
