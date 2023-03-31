@@ -9,45 +9,51 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid d-flex justify-content-center align-items-center">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <div class="card-text">
-                {% if post.technology %}
-                <p><strong>Technologies: </strong>{{ post.technology}}</p>
-                {% endif %}
-                {% if post.description %}
-                <p><b>Description: </b>{{ post.description }}</p>
-                {% endif %}
-                <ul class="list-inline item-details">
-                  {% if post.client %}
-                  <li>Client:
-                    <strong>{{ post.client }}</strong>
-                  </li>
-                  {% endif %}
-                  {% if post.project-date %}
-                  <li>Date:
-                    <strong>{{ post.project-date }}</strong>
-                  </li>
-                  {% endif %}
-                
-                  {% if post.category %}
-                  <li><p><strong>Category: </strong>{{ post.category }}</p>
-                  </li>
-                  {% endif %}
-                </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <div class="card-text">
+                      {% if post.technology %}
+                      <p><strong>Technologies: </strong>{{ post.technology}}</p>
+                      {% endif %}
+                      {% if post.description %}
+                      <p><b>Description: </b>{{ post.description }}</p>
+                      {% endif %}
+                      <ul class="list-inline item-details">
+                        {% if post.client %}
+                        <li>Client:
+                          <strong>{{ post.client }}</strong>
+                        </li>
+                        {% endif %}
+                        {% if post.project-date %}
+                        <li>Date:
+                          <strong>{{ post.project-date }}</strong>
+                        </li>
+                        {% endif %}
+                      
+                        {% if post.category %}
+                        <li><p><strong>Category: </strong>{{ post.category }}</p>
+                        </li>
+                        {% endif %}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-        Close</button>
     </div>
   </div>
 </div>
