@@ -28,6 +28,13 @@ p.small {
     font-size: 18px;
 }
 
+p.project {
+    color:#253C59;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -487,7 +494,7 @@ footer .footer-below {
     min-height: 100%; /*fill the screen */
     border: 0;
     border-radius: 0;
-    text-align: center;
+    text-align: justify;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;

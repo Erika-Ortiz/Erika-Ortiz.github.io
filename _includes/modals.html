@@ -11,21 +11,21 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-10 col-lg-offset-">
           <div class="modal-body">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3" style="max-width: 100%;">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-6">
                   <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                 </div>
-                <div class="col-md-8">
+                <div class=".col-md-6 .ml-auto">
                   <div class="card-body">
                     <div class="card-text">
                       {% if post.technology %}
-                      <p><strong>Technologies: </strong>{{ post.technology}}</p>
+                      <p class="project"><strong>Technologies: </strong>{{ post.technology}}</p>
                       {% endif %}
                       {% if post.description %}
-                      <p><b>Description: </b>{{ post.description }}</p>
+                      <p class="project"><b>Description: </b>{{ post.description }}</p>
                       {% endif %}
                       <ul class="list-inline item-details">
                         {% if post.client %}
@@ -40,7 +40,7 @@
                         {% endif %}
                       
                         {% if post.category %}
-                        <li><p><strong>Category: </strong>{{ post.category }}</p>
+                        <li><p class="project"><strong>Category: </strong>{{ post.category }}</p>
                         </li>
                         {% endif %}
                       </ul>
@@ -48,9 +48,11 @@
                   </div>
                 </div>
               </div>
+              <div class="col-lg-8 col-lg-offset-2 text-center">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+                Close</button>
+              </div>
             </div>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
           </div>
         </div>
       </div>
