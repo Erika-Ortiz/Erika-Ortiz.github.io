@@ -36,8 +36,8 @@ color:
 # Footer settings
 footer:
   copyright: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-  location: EMAIL
-  credits: PHONE
+  # location: EMAIL
+  # credits: PHONE
   social: SOCIAL MEDIA
   
 
@@ -49,13 +49,16 @@ social:
   #   url: http://bitbucket.org/jekyll
   - title: github
     url: https://github.com/Erika-Ortiz 
+  - title: telegram
+    url: https://t.me/ErikaOrtiz
+  
 
 # Credits content
-credits: '(+54) 9 351 2084173'
+# credits: '(+54) 9 351 2084173'
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: erikarortiz@gmail.com
+# address:
+#   - line: erikarortiz@gmail.com
 
 
 
