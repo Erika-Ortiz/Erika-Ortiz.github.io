@@ -507,6 +507,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
+    border-radius: 10px;
     margin-bottom: 30px;
 }
 
