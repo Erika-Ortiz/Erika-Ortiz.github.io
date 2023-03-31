@@ -27,7 +27,7 @@ disqus_shortname: myshortname
 color:
   secondary: 05ADA8 #green nav bar
   primary:  ffff #bg white
-  primary-rgb: "248, 232, 37" # box portfolio intense yellow
+  primary-rgb: "252, 246, 169"  #"248, 232, 37" # box portfolio intense yellow
   primary-bis: fcf6a9 # light yellow
   secondary-dark: 233140 #A2122F
   terciary: ffff #58788C #04BFBF # body
