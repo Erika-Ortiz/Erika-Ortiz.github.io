@@ -20,7 +20,12 @@ p.medium {
     font-weight: 300;
     font-size: 20px;
 }
-
+p.medium-dark {
+    font-family: 'Noto Serif', serif;
+    color:#046e6b;
+    font-weight: 300;
+    font-size: 20px;
+}
 p.small {
     font-family: 'Noto Serif', serif;
     /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
@@ -217,8 +222,10 @@ section.secondary {
 
 section.primary-bis {
     color: #058380;
+
     /* color: #253C59; */
     background-image: url("img/hero2.png");
+   
     /* about me */
     
 }
@@ -362,6 +369,9 @@ section.primary-bis {
     background: #fcfaf0ff;
 }
 
+a.intext {
+    color:#05ADA8
+}
 
 /* FORM */
 
@@ -533,8 +543,8 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
-    height: 75px;
+    width: 3px;
+    height: 25px;
     margin-left: 35px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(45deg);
@@ -544,8 +554,8 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
-    height: 75px;
+    width: 3px;
+    height: 25px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);

@@ -8,5 +8,5 @@ alt: image-alt
 category: ML - Computer Vision - NLP
 title: automated product categorization for e-commerce
 technology: Pandas, Numpy, Sci-Kit Learn, Detectron, AWS
-description: project description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus imperdiet dolor, ac porta nisi venenatis vel. In elementum elit vitae ligula mollis, at mattis est rhoncus. Ut sodales neque ac mauris placerat, ut interdum risus malesuada. Curabitur ultricies tempus sapien. Ut sed bibendum erat. In eu cursus nisi. Nunc molestie ullamcorper sapien, eget gravida ipsum 
+description: project description
 ---
