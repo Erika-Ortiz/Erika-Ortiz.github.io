@@ -27,7 +27,10 @@
                       {% if post.description %}
                       <p class="project"><b>Description: </b>{{ post.description }}</p>
                       {% endif %}
-                      <ul class="list-inline item-details">
+                      {% if post.category %}
+                      <p class="project"><strong>Category: </strong>{{ post.category }}</p>
+                      {% endif %}
+                      <!-- <ul class="list-inline item-details">
                         {% if post.client %}
                         <li>Client:
                           <strong>{{ post.client }}</strong>
@@ -43,7 +46,7 @@
                         <li><p class="project"><strong>Category: </strong>{{ post.category }}</p>
                         </li>
                         {% endif %}
-                      </ul>
+                      </ul> -->
                     </div>
                   </div>
                 </div>
