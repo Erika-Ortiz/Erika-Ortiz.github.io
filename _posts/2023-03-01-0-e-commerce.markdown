@@ -1,12 +1,12 @@
 ---
 layout: default
-modal-id: 0
 date: 2023-03-01
 modal-id-str: e-commerce
 img: project_card_0.png
 alt: image-alt
-category: ML - Computer Vision - NLP
 title: automated product categorization for e-commerce
-technology: Pandas, Numpy, Sci-Kit Learn, Detectron, AWS
-description: project description
+role: Team leader
+description:  I led a team of four members in the development of an API-based web-service application backed by a multi-label classification model. Combining two NLP-supervised models and a CNN computer vision model trained on over 40K product samples, our ensemble model accurately predicted the best five business product categories out of 213 with a remarkable 82% top 1 accuracy and 98% top 5 accuracy.<br> Applying Scrum methodology, I led weekly sprint planning and daily task delegation meetings, ensuring a smooth development process and timely completion of all tasks uploaded to a Trello Kanban board. By employing this methodology, my team and I were able to implement a multimodal classification model that exceeded the project's requirements of processing only textual elements of the products, thereby expanding the project's scope. Moreover, we developed custom metrics for evaluating our models' performance in capturing the hierarchical structure of labels. This allowed us to capture more subtle relationships between product categories and improve the accuracy of our model predictions. Finally, we developed a friendly-user interface for our API, allowing for easy integration into e-commerce platforms 
+technology: Pandas, Numpy, Anytree, Sci-Kit Learn, TensorFlow, Keras, TensorBoard, Docker, AWS (S3 and EC2), Flask 
+category: Machine learning - Computer vision - NLP  
 ---

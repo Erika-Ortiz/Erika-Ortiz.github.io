@@ -21,17 +21,19 @@
                 <div class=".col-md-6 .ml-auto">
                   <div class="card-body">
                     <div class="card-text">
-                      {% if post.technology %}
-                      <p class="project"><strong>Technologies: </strong>{{ post.technology}}</p>
-                      {% endif %}
+                      {% if post.role %}
+                      <p class="project"><strong>Role: </strong>{{ post.role}}</p>
+                      {% endif %} 
                       {% if post.description %}
                       <p class="project"><b>Description: </b>{{ post.description }}</p>
                       {% endif %}
+                      {% if post.technology %}
+                      <p class="project"><strong>Technologies: </strong>{{ post.technology}}</p>
+                      {% endif %}
                       {% if post.category %}
                       <p class="project"><strong>Category: </strong>{{ post.category }}</p>
-                      {% endif %}
-                      <!-- <ul class="list-inline item-details">
-                        {% if post.client %}
+                      {% endif %}                      
+                        <!-- {% if post.client %}
                         <li>Client:
                           <strong>{{ post.client }}</strong>
                         </li>
@@ -46,7 +48,7 @@
                         <li><p class="project"><strong>Category: </strong>{{ post.category }}</p>
                         </li>
                         {% endif %}
-                      </ul> -->
+                      </ul>  -->
                     </div>
                   </div>
                 </div>

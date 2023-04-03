@@ -46,7 +46,12 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #253C59;
+}
+a.plinks {
+    outline: 0;
+    color: #253C59;
+    text-decoration: underline
 }
 
 h1,
