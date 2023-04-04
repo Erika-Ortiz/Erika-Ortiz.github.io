@@ -54,6 +54,14 @@ a.plinks {
     text-decoration: underline
 }
 
+ul.projects {
+    outline: 0;
+    color: #253C59;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+}
+
 h1,
 h2,
 h4,

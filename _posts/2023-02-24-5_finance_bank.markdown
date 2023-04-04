@@ -5,8 +5,8 @@ modal-id: 5
 modal-id-str: finance_bank
 img: project_card_5.png
 alt: image-alt
-category: DS
+category: Data Science
 title: finance
 technology: Pandas, Numpy, Sci-Kit Learn, Plotly
-description: project description
+description: project description soon
 ---
